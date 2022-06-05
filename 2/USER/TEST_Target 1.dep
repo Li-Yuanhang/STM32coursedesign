@@ -1,0 +1,55 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x504414D0)(--cpu Cortex-M3 -g --apcs=interwork -I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_hd.lst --xref -o ..\output\startup_stm32f10x_hd.o --depend ..\output\startup_stm32f10x_hd.d)
+F (.\test.c)(0x5DE8C21F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\USER-I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD-o ..\output\test.o --omf_browse ..\output\test.crf --depend ..\output\test.d)
+I (config.h)(0x5A0593FA)
+I (..\SYSTEM\sys\sys.h)(0x5CF5C7B6)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5DDB9D09)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\MDK5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x53463742)
+I (..\SYSTEM\usart\usart.h)(0x5CF5C7A4)
+I (C:\MDK5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x5CF5C7B6)
+I (..\HARDWARE\LED\led.h)(0x5785F972)
+F (..\SYSTEM\delay\delay.c)(0x5CF5C7B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\USER-I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5CF5C7B6)
+I (..\SYSTEM\sys\sys.h)(0x5CF5C7B6)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5DDB9D09)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\MDK5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x53463742)
+F (..\SYSTEM\sys\sys.c)(0x5CF5C7B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\USER-I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5CF5C7B6)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5DDB9D09)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\MDK5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x53463742)
+F (..\SYSTEM\usart\usart.c)(0x5CF5C7B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\USER-I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x5CF5C7A4)
+I (..\SYSTEM\sys\sys.h)(0x5CF5C7B6)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5DDB9D09)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\MDK5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x53463742)
+I (C:\MDK5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\HARDWARE\LED\led.c)(0x5DE8C19B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\USER-I C:\MDK5\ARM\RV31\INC-I C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\MDK5\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD-o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
+I (..\USER\config.h)(0x5A0593FA)
+I (..\SYSTEM\sys\sys.h)(0x5CF5C7B6)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5DDB9D09)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\MDK5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x53463742)
+I (..\SYSTEM\usart\usart.h)(0x5CF5C7A4)
+I (C:\MDK5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x5CF5C7B6)
+I (..\HARDWARE\LED\led.h)(0x5785F972)

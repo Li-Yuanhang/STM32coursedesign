@@ -1,0 +1,13 @@
+..\output\test.o: test.c
+..\output\test.o: config.h
+..\output\test.o: ..\SYSTEM\sys\sys.h
+..\output\test.o: C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\output\test.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h
+..\output\test.o: C:\MDK5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\test.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+..\output\test.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+..\output\test.o: C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\output\test.o: ..\SYSTEM\usart\usart.h
+..\output\test.o: C:\MDK5\ARM\ARMCC\bin\..\include\stdio.h
+..\output\test.o: ..\SYSTEM\delay\delay.h
+..\output\test.o: ..\HARDWARE\LED\led.h

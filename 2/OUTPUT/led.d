@@ -1,0 +1,13 @@
+..\output\led.o: ..\HARDWARE\LED\led.c
+..\output\led.o: ..\USER\config.h
+..\output\led.o: ..\SYSTEM\sys\sys.h
+..\output\led.o: C:\MDK5\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\output\led.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h
+..\output\led.o: C:\MDK5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\led.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+..\output\led.o: C:\MDK5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+..\output\led.o: C:\MDK5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\output\led.o: ..\SYSTEM\usart\usart.h
+..\output\led.o: C:\MDK5\ARM\ARMCC\bin\..\include\stdio.h
+..\output\led.o: ..\SYSTEM\delay\delay.h
+..\output\led.o: ..\HARDWARE\LED\led.h
